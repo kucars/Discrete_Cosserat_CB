@@ -29,5 +29,5 @@ F. Renda, F. Boyer, J. Dias and L. Seneviratne. Discrete Cosserat Approach for M
 The author of the algorithm and MATLAB implementation is:
 
 Federico Renda (federico.renda@kustar.ac.ae)
-Department of Mechanical Engineering, Khalifa University Robotics Institute
+Department of Mechanical Engineering, Khalifa University Robotics Institute,
 Khalifa University of Science and Technology, Abu Dhabi.
