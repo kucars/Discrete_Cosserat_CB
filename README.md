@@ -9,7 +9,6 @@ Insert your soft manipulator parameters in:
 piecewise_driver
 ```
 and run it to simulate the dynamics.
-
 The differential equations are implemented in:
 ```
 piecewise_derivatives
@@ -30,7 +29,5 @@ F. Renda, F. Boyer, J. Dias and L. Seneviratne. Discrete Cosserat Approach for M
 The author of the algorithm and MATLAB implementation is:
 
 Federico Renda (federico.renda@kustar.ac.ae)
-
 Department of Mechanical Engineering, Khalifa University Robotics Institute
-
 Khalifa University of Science and Technology, Abu Dhabi.
