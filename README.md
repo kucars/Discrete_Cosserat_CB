@@ -1,2 +1,3 @@
-# dcsmd
-Matlab code for discrete Cosserat soft manipulators dynamics
+# Composite-Body Algorithm of Discrete Cosserat Methods for Soft Manipulators Dynamics
+
+
