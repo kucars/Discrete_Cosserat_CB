@@ -15,7 +15,7 @@ disp('Pre-processing')
 
 % Geometrical input del braccio siliconico (section)
 E        =110e3;                         % [Pa] modulo di young 110e3
-eta      =3e3;                           % [Pa*s] viscosit‡ 5e3
+eta      =3e3;                           % [Pa*s] viscosit√† 5e3
 Poi      =0;                           % [-] modulo di Poisson 0.5
 G        =E/(2*(1+Poi));                 % [Pa] modulo di taglio
 R        =10e-3;                         % [m] Raggio braccio 10e-3
@@ -34,14 +34,15 @@ xci_star    =[0;0;0;1;0;0];
 %-------------------------------------------------------------------------
 % dinamic parameters
 
-ro_arm      =2000;                             % [Kg/m^3] densit‡ nominale 1080
-Gra         =[0;0;0;0;0;0];                    % [m/s^2] vettore gravit‡ [0;0;0;-9.81;0;0]
+ro_arm      =2000;                             % [Kg/m^3] densit√† nominale 1080
+Gra         =[0;0;0;0;0;0];                    % [m/s^2] vettore gravit√† [0;0;0;-9.81;0;0]
 Eps         =diag([G*I E*J E*J E*A G*A G*A]);  % stifness matrix
 Ipsi        =eta*diag([I 3*J 3*J 3*A A A]);    % viscosity matrix eta*diag([I 3*J 3*J 3*A A A]);
 M           =ro_arm*diag([I J J A A A]);       % inertia matrix
 
 %-------------------------------------------------------------------------
 % numerical setting
+
 time        =20;                     % [s]
 nsol        =time*10^2+1;            % una soluzione ogni centisecondo
 tspan       =linspace(0,time,nsol);  % [s] time
