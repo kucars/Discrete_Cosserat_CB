@@ -1,4 +1,4 @@
-# Composite-Body Algorithm of Discrete Cosserat Method for Soft Manipulators Dynamics
+# Composite-Body Algorithm of Discrete Cosserat Method
 
 This MATLAB code implements the composite-body algorithm of the Discrete Cosserat method for soft manipulator dynamics, as described in
 
