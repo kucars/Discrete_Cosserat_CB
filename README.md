@@ -18,3 +18,15 @@ The state vector is composed by one 6D vector of the section strain for each sec
 piecewise_observables
 ```
 
+# Cite
+
+If you use this code for scientific publication purpose, please cite:
+
+F. Renda, F. Boyer, J. Dias and L. Seneviratne. Discrete Cosserat Approach for Multi-Section Soft Robots Dynamics. arXiv:1702.03660 [cs.RO] (https://arxiv.org/abs/1702.03660).
+
+# Author
+
+The author of the algorithm and MATLAB implementation is:
+Federico Renda (federico.renda@kustar.ac.ae)
+Department of Mechanical Engineering, Khalifa University Robotics Institute
+Khalifa University of Science and Technology, Abu Dhabi.
