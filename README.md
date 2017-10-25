@@ -1,9 +1,9 @@
 # Composite-Body Algorithm of Discrete Cosserat Method
 
 This MATLAB code implements the composite-body algorithm of the Discrete Cosserat method for soft manipulator dynamics, as described in
-```
+
 F. Renda, F. Boyer, J. Dias and L. Seneviratne. Discrete Cosserat Approach for Multi-Section Soft Robots Dynamics. arXiv:1702.03660 [cs.RO] (https://arxiv.org/abs/1702.03660).
-```
+
 Insert your soft manipulator parameters in:
 ```
 piecewise_driver
@@ -22,7 +22,22 @@ piecewise_observables
 
 If you use this code for scientific publication purpose, please cite:
 ```
-F. Renda, F. Boyer, J. Dias and L. Seneviratne. Discrete Cosserat Approach for Multi-Section Soft Robots Dynamics. arXiv:1702.03660 [cs.RO] (https://arxiv.org/abs/1702.03660).
+@article{DBLP:journals/corr/RendaBDS17,
+  author    = {Federico Renda and
+               Fr{\'{e}}d{\'{e}}ric Boyer and
+               Jorge Manuel Miranda Dias and
+               Lakmal D. Seneviratne},
+  title     = {Discrete Cosserat Approach for Multi-Section Soft Robots Dynamics},
+  journal   = {CoRR},
+  volume    = {abs/1702.03660},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1702.03660},
+  archivePrefix = {arXiv},
+  eprint    = {1702.03660},
+  timestamp = {Wed, 07 Jun 2017 14:41:32 +0200},
+  biburl    = {http://dblp.org/rec/bib/journals/corr/RendaBDS17},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
 ```
 # Author
 
