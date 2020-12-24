@@ -35,6 +35,6 @@ doi={10.1109/TRO.2018.2868815}}
 
 The author of the algorithm and MATLAB implementation is:
 
-Federico Renda (federico.renda@kustar.ac.ae)
+Federico Renda (federico.renda@ku.ac.ae)
 Department of Mechanical Engineering, Khalifa University Robotics Institute,
 Khalifa University of Science and Technology, Abu Dhabi.
